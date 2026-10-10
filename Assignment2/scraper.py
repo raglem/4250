@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
-# AUTHOR: your name
+# AUTHOR: Theoden Melgar
 # FILENAME: scraper.py
-# SPECIFICATION: description of the program
+# SPECIFICATION: Crawl the circular links section of TestingURL.dev. The following program will print <h1> tags of each page and all visited page URLs upon completion.
 # FOR: CS 4250 - Assignment #2
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 2 hours
 #-------------------------------------------------------------------------
 
 # Importing Python libraries

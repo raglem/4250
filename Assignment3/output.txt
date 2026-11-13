@@ -1,0 +1,12 @@
+##### Documents Collection #####
+{'_id': 1, 'text': 'Summer rain is hot rain in Florida.'}
+{'_id': 3, 'text': 'Hot summer rain in California.'}
+##### Inverted Index Collection #####
+{'_id': ObjectId('6af76e1d5cfbbe5bd5d09a89'), 'term': 'summer', 'postings': [{'docId': 1, 'tf': 1}, {'docId': 3, 'tf': 1}]}
+{'_id': ObjectId('6af76e1d5cfbbe5bd5d09a8a'), 'term': 'rain', 'postings': [{'docId': 1, 'tf': 2}, {'docId': 3, 'tf': 1}]}
+{'_id': ObjectId('6af76e1d5cfbbe5bd5d09a8b'), 'term': 'is', 'postings': [{'docId': 1, 'tf': 1}]}
+{'_id': ObjectId('6af76e1d5cfbbe5bd5d09a8d'), 'term': 'in', 'postings': [{'docId': 1, 'tf': 1}, {'docId': 3, 'tf': 1}]}
+{'_id': ObjectId('6af76e1d5cfbbe5bd5d09a8e'), 'term': 'florida', 'postings': [{'docId': 1, 'tf': 1}]}
+{'_id': ObjectId('6af76e1d5cfbbe5bd5d09a8f'), 'term': 'hot', 'postings': [{'docId': 1, 'tf': 1}, {'docId': 3, 'tf': 1}]}
+{'_id': ObjectId('6af76e1d5cfbbe5bd5d09a90'), 'term': 'arizona', 'postings': []}
+{'_id': ObjectId('6af76e1d5cfbbe5bd5d09a91'), 'term': 'california', 'postings': [{'docId': 3, 'tf': 1}]}
